@@ -7,6 +7,9 @@ const currentLocale = Astro.currentLocale;
 
 const PROJECTS = await getCollection('projects');
 const projects = PROJECTS.filter(project => project.id.includes(currentLocale));
+projects.sort((a, b) => {
+	return a.id.localeCompare(b.id);
+});
 ---
 
 <section id="projects-section" class="min-h-6xl max-w-[80%] 2xl:max-w-6xl mx-auto pb-12 flex flex-col justify-start items-center dark:bg-neutral-800 relative">
