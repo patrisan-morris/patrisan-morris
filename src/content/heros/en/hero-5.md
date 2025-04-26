@@ -2,9 +2,11 @@
 hero: 'catlover'
 title: 'Cat lover'
 subtitle: 'Cat lover'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
 image: '/heros/pma-catlover.png'
 bg: "bg-pma-catlover"
 likes: '+99999'
 ---
 
+My cat Genaro is the king of the house and the source of my daily laughter. His naps in random corners and his spontaneous mischiefs never fail to make me smile. No matter how chaotic the day has been, spending some time with him always recharges my energy and reminds me to enjoy the little moments in life.
+
+This ability to disconnect and recharge helps me tackle work challenges with a fresher and more creative mind.
