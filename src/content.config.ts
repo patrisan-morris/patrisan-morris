@@ -11,7 +11,6 @@ const heros = defineCollection({
         hero: z.string(),
         title: z.string(),
         subtitle: z.string(),
-        description: z.string(),
         image: z.string(),
         bg: z.string(),
         likes: z.string(),

@@ -2,9 +2,10 @@
 hero: 'traveler'
 title: 'Viajera entusiasta'
 subtitle: 'Viajera entusiasta'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
 image: '/heros/pma-traveler.png'
 bg: "bg-pma-traveler"
 likes: '340'
 ---
+Me encanta probar platos típicos, perderme en paisajes que parecen salidos de una postal y charlar con la gente local. Viajo con una idea del inicio y del final, pero cuanto más improvisada la ruta, más feliz soy. Y si hay naturaleza de por medio, mejor.
 
+Viajar así me ha enseñado a estar abierta a lo inesperado y a valorar cada experiencia como una oportunidad. Esa mentalidad me acompaña también en el trabajo, donde disfruto explorando soluciones creativas, incluso cuando el camino no es el más predecible.

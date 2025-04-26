@@ -2,9 +2,11 @@
 hero: 'catlover'
 title: 'Amante de los gatos'
 subtitle: 'Amante de los gatos'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
 image: '/heros/pma-catlover.png'
 bg: "bg-pma-catlover"
 likes: '+99999'
 ---
 
+Mi gato Genaro es el rey de la casa y el responsable de mis risas diarias. Sus siestas en cualquier rincón y sus travesuras espontáneas me sacan una sonrisa siempre. Por muy caótico que haya sido el día, un rato con él siempre me recarga de energía y me recuerda la importancia de disfrutar de los pequeños momentos de la vida.
+
+Esta capacidad de desconectar y recargarme me ayuda a afrontar los desafíos del trabajo con una mente más fresca y creativa.

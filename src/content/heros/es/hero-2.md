@@ -1,10 +1,11 @@
 ---
 hero: 'dancer'
-title: 'Salsera disfrutona'
-subtitle: 'Salsera disfrutona'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+title: 'Apasionada del baile'
+subtitle: 'Apasionada del baile'
 image: '/heros/pma-dancer.png'
 bg: "bg-pma-dancer"
 likes: '1260'
 ---
+Bailar me da vida, y no solo en sentido figurado. Cuando bailo, el resto del mundo desaparece: sólo existe la música y la emoción del momento. Mi formación en el conservatorio de baile y mi experiencia en varios grupos de salsa me han enseñado no solo la técnica, sino también la disciplina y la importancia del trabajo en equipo.
 
+El baile me llena de energía, me recuerda la importancia de disfrutar del proceso, me inspira a seguir formándome y a mantener una disciplina, tanto dentro como fuera del trabajo.
