@@ -2,7 +2,7 @@
 hero: 'dancer'
 title: 'Apasionada del baile'
 subtitle: 'Apasionada del baile'
-image: '/heros/pma-dancer.png'
+image: '/heros/dancer.png'
 bg: "bg-pma-dancer"
 likes: '1260'
 ---

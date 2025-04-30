@@ -2,7 +2,7 @@
 hero: 'catlover'
 title: 'Amante de los gatos'
 subtitle: 'Amante de los gatos'
-image: '/heros/pma-catlover.png'
+image: '/heros/catlover.png'
 bg: "bg-pma-catlover"
 likes: '+99999'
 ---

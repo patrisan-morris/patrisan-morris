@@ -13,6 +13,12 @@ const DEGREES = await getCollection('degrees');
 const CERTIFICATES = await getCollection('certificates');
 const degrees = DEGREES.filter(degree => degree.id.includes(currentLocale));
 const certificates = CERTIFICATES.filter(certificate => certificate.id.includes(currentLocale));
+degrees.sort((a, b) => {
+	return a.id.localeCompare(b.id);
+});
+certificates.sort((a, b) => {
+	return a.id.localeCompare(b.id);
+});
 ---
 
 <section id="formation-section" class="max-w-[80%] 2xl:max-w-6xl mx-auto py-12 flex flex-col justify-center items-center gap-6 dark:bg-neutral-800 relative">

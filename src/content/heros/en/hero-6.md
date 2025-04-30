@@ -2,7 +2,7 @@
 hero: 'reader'
 title: 'Passionate reader'
 subtitle: 'Passionate reader'
-image: '/heros/pma-reader.png'
+image: '/heros/reader.png'
 bg: "bg-pma-reader"
 likes: '50'
 ---

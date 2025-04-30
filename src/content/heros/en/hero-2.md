@@ -2,7 +2,7 @@
 hero: 'dancer'
 title: 'Dancing soul'
 subtitle: 'Dancing soul'
-image: '/heros/pma-dancer.png'
+image: '/heros/dancer.png'
 bg: "bg-pma-dancer"
 likes: '1260'
 ---

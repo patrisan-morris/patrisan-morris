@@ -2,7 +2,7 @@
 hero: 'gamer'
 title: 'Jugadora estratega'
 subtitle: 'Jugadora estratega'
-image: '/heros/pma-gamer.png'
+image: '/heros/gamer.png'
 bg: "bg-pma-gamer"
 likes: '1340'
 ---

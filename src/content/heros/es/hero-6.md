@@ -2,7 +2,7 @@
 hero: 'reader'
 title: 'Lectora empedernida'
 subtitle: 'Lectora empedernida'
-image: '/heros/pma-reader.png'
+image: '/heros/reader.png'
 bg: "bg-pma-reader"
 likes: '50'
 ---

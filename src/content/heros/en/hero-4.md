@@ -1,9 +1,9 @@
 ---
-hero: 'traveler'
-title: 'Enthusiastic traveler'
-subtitle: 'Enthusiastic traveler'
-image: '/heros/pma-traveler.png'
-bg: "bg-pma-traveler"
+hero: 'traveller'
+title: 'Enthusiastic traveller'
+subtitle: 'Enthusiastic traveller'
+image: '/heros/traveller.png'
+bg: "bg-pma-traveller"
 likes: '340'
 ---
 

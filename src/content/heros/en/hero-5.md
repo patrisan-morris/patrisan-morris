@@ -2,7 +2,7 @@
 hero: 'catlover'
 title: 'Cat lover'
 subtitle: 'Cat lover'
-image: '/heros/pma-catlover.png'
+image: '/heros/catlover.png'
 bg: "bg-pma-catlover"
 likes: '+99999'
 ---

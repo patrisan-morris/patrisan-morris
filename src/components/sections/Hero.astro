@@ -9,6 +9,9 @@ const currentLocale = Astro.currentLocale;
 
 const ALTERHEROS = await getCollection('heros');
 const heros = ALTERHEROS.filter(hero => hero.id.includes(currentLocale + '/'));
+heros.sort((a, b) => {
+	return a.id.localeCompare(b.id);
+});
 const SOCIALMEDIA = [
 	{name:'linkedin', link: 'https://www.linkedin.com/in/pmalc/', target:'_blank'},
 	{name:'github', link:'https://www.github.com/pmalc', target:'_blank'},
@@ -20,9 +23,9 @@ const currentHero = 0;
 ---
 
 <section id="alterhero" class="relative h-max -top-20 w-full" data-currenthero={heros[currentHero].data.hero} data-index={currentHero}>
-	<div id="background" class={heros[currentHero].data.bg + " absolute h-[575px] top-20 md:h-[900px] md:top-20 lg:h-[620px] lg:top-20 fondo w-full bg-white/95 bg-blend-overlay dark:bg-neutral-800  bg-cover bg-no-repeat bg-center"}>
+	<div id="background" class={heros[currentHero].data.bg + " absolute h-[575px] top-20 md:h-[900px] md:top-20 lg:h-[950px] lg:top-20 fondo w-full bg-white/95 bg-blend-overlay dark:bg-neutral-800 bg-contain bg-no-repeat bg-center"}>
 	</div>
-	<div class="hero-section lg:w-[85%] xl:w-[80% ] max-w-6xl mx-auto pt-48 flex flex-row justify-start items-start relative top-0 right-0 left-0">
+	<div class="hero-section lg:w-[85%] xl:w-[80%] max-w-6xl mx-auto pt-48 flex flex-row justify-start items-start relative top-0 right-0 left-0">
 		<div class="flex flex-col lg:flex-row justify-start lg:justify-between gap-10 2xl:gap-12 items-center w-full mx-auto">
 			<div class="flex flex-col justify-start items-start cursor-default w-[90%] md:w-[85%] max-lg:mx-auto lg:w-3/5 xl:2/3 2xl:w-2/3 gap-3">
 				<div class="flex flex-col justify-center items-center lg:items-start max-lg:mx-auto lg:w-full">
@@ -131,26 +134,26 @@ const currentHero = 0;
 	}
 
 	.bg-pma-dev{
-		background-image: url('/heros/developer-full-180.png');
+		background-image: url('/heros/developer-full.png');
 	}
 
 	.bg-pma-dancer{
-		background-image: url('/heros/pma-dancer.png');
+		background-image: url('/heros/dancer-full.png');
 	}
 
 	.bg-pma-reader{
-		background-image: url('/heros/pma-reader.png');
+		background-image: url('/heros/reader-full.png');
 	}
 
-	.bg-pma-traveler{
-		background-image: url('/heros/pma-traveler.png');
+	.bg-pma-traveller{
+		background-image: url('/heros/traveller-full.png');
 	}
 	.bg-pma-gamer{
-		background-image: url('/heros/pma-gamer.png');
+		background-image: url('/heros/gamer-full.png');
 	}
 
 	.bg-pma-catlover{
-		background-image: url('/heros/pma-catlover.png');
+		background-image: url('/heros/catlover-full.png');
 	}
 
 </style>
