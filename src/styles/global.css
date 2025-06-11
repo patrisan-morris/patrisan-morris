@@ -5,7 +5,8 @@
     --secondary:32 132 32; /*Verde #208420 */
     --terciary:45 112 179; /*Azul #2d70b3 */
     --accent: 254 218 94; /*Amarillo #FEDA5E */
-    --contrast: 224 22 93 /*Fucsia #e0165d */
+    --contrast: 224 22 93; /*Fucsia #e0165d */
+    --opposite: 101 38 142; /* Morado #65268E */
 }
 ::selection {
 	background: rgba(var(--accent) / 0.2);
@@ -38,6 +39,7 @@
     --color-accent: rgb(var(--accent));
     --color-secondary: rgb(var(--secondary));
     --color-contrast: rgb(var(--contrast));
+    --color-opposite: rgb(var(--opposite));
 
     --color-html:#E45A2A;
     --color-css: #1771B5;
@@ -70,6 +72,7 @@
     --color-aveva:  #3D1152;
     --color-cv: rgb(var(--secondary));
     --color-email: rgb(var(--primary));
+    --color-inertia: #9553e9;
 
     --color-vue-0:  #41B883;
 	--color-vue-1:  #41B883;
@@ -103,9 +106,9 @@
 
     --color-project1:  rgb(var(--terciary));/*#2C5884;*/
     --color-project2:  rgb(var(--accent)); /*#7234B1;*/
-    --color-project3:  rgb(var(--contrast));/*#A40E65;*/
-    --color-project4:  rgb(var(--secondary));
-    --color-project5: rgb(var(--primary));
+    --color-project3:  rgb(var(--secondary));/*#A40E65;*/
+    --color-project4:  rgb(var(--opposite));
+    --color-project5:  rgb(var(--primary));
 
 	--font-montserrat: 'Montserrat';
 	--font-merriweather: 'Merriweather Sans';

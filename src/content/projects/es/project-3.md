@@ -1,6 +1,6 @@
 ---
-title: 'Proyecto 3'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.'
-image: '/projects/project-3.png'
-skills: ['html', 'css', 'vue', 'js', 'git', 'github']
+title: 'Babylon Dust'
+description: 'Trabajo final del máster de Diseño y desarrollo de videojuegos. Un juego con mecánica de puzzles donde controlas a tres personajes con distintos poderes. Está inspirado en la mitología babilónica.'
+image: '/projects/babylon-dust.png'
+skills: ['unity', 'csharp','studiomax', 'photoshop', 'git', 'github']
 ---

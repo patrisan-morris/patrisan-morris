@@ -32,7 +32,7 @@ certificates.sort((a, b) => {
 	<article class="w-full border border-black/5 bg-neutral-50 dark:bg-neutral-700 rounded-3xl text-center">
 		<div class="px-10 pt-10">
 			<h1 class="mt-2 text-xl font-extrabold tracking-widest max-lg:text-center text-secondary uppercase">{t.globals.degreesTitle}</h1>
-			<ul class="flex flex-col lg:grid lg:grid-cols-3 justify-items items-center gap-8 mt-4" >
+			<ul class="flex flex-col lg:grid lg:grid-cols-3 justify-items items-center gap-12 mt-4" >
 				{ degrees.map(degree => (
 					<DegreeItem degree={degree}/>
 				))}
@@ -44,7 +44,7 @@ certificates.sort((a, b) => {
 				<h1 class="text-xl font-extrabold tracking-widest max-lg:text-center text-secondary uppercase">{t.globals.certificatesTitle}</h1>
 				<hr class="grow-2 h-1 my-8 bg-neutral-200 border-0 rounded-sm dark:bg-neutral-700">
 			</div>
-			<div class="flex flex-row items-center justify-between gap-2">
+			<!-- <div class="flex flex-row items-center justify-between gap-2">
 				<div class="rotate-90">
 					<ChevronIcon data-direction="left" class="size-10 arrow-scroll hover:stroke-primary hover:fill-primary cursor-pointer"/>
 				</div>
@@ -64,6 +64,13 @@ certificates.sort((a, b) => {
 			<div class="flex justify-center items-center gap-2 my-6 fill-neutral-300 dark:fill-white">
 				<PlayIcon class="play-scroll size-8 hover:fill-primary dark:hover:fill-accent cursor-pointer" title={t.globals.playAnimation}/>
 				<StopIcon class="stop-scroll size-8 hover:fill-primary dark:hover:fill-accent cursor-pointer" title={t.globals.stopAnimation}/>
+			</div> -->
+			<div class="certificate-list  overflow-hidden">
+				<ul class="grid grid-cols-5 w-fit gap-6 p-4">
+					{ certificates.map(certificate => (
+						<CertificateItem certificate={certificate} t={t}/>
+					))}
+				</ul>
 			</div>
 		</div>
 	</article>
@@ -71,7 +78,7 @@ certificates.sort((a, b) => {
 <style>
 
 	@reference "@styles/global.css";
-	.certificate-list{
+	/*.certificate-list{
 		-webkit-mask:linear-gradient(90deg, transparent, white 2%, white 98%, transparent);
 		mask:linear-gradient(90deg, transparent, white 2%, white 98%, transparent);
 	}
@@ -114,11 +121,12 @@ certificates.sort((a, b) => {
         100%{
 			transform:translate(calc(-50% + 0.5rem));
         }
-    }
+    }*/
 
 </style>
 <script>
 
+	/*
 	const scrollers = document.querySelectorAll('.loop-slider');
 	const playIcon = document.querySelector('.play-scroll');
 	const stopIcon = document.querySelector('.stop-scroll');
@@ -206,6 +214,6 @@ certificates.sort((a, b) => {
 				toogleAnimation("paused");
 			}, 500);
 		});
-	}
+	}*/
 
 </script>

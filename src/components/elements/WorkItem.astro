@@ -5,8 +5,8 @@ import WorkIcon from '@components/icons/WorkIcon.astro';
 const {experience, t} = Astro.props;
 const data = experience.data;
 
-const justify_ul = (data.name !== 'aboundfire')? 'justify-between': 'justify-start';
-const gap_ul = (data.name !== 'si2')? 'gap-x-2': 'gap-x-1';
+const justify_ul = (data.name !== 'ssicontrol')? 'justify-start': 'justify-between';
+const gap_ul = (data.name !== 'si2')? 'gap-x-3': 'gap-x-3';
 ---
 
 <li class="flex flex-row justify-center items-center w-full group">
@@ -32,7 +32,7 @@ const gap_ul = (data.name !== 'si2')? 'gap-x-2': 'gap-x-1';
                     <li class="text-neutral-500 dark:text-white leading-8 tracking-wide font-light text-sm md:text-md xl:text-[1rem] xl:text-neutral-400">{description}</li>
                 ))}
             </ul>
-            <ul class={"flex flex-row pt-4 flex-wrap " + justify_ul + " " + gap_ul}>
+            <ul class={"flex flex-row pt-4 flex-wrap " + justify_ul + " gap-x-3"}>
                 {data.skills.map(skill => (
                     <SkillItem skill={skill} t={t} mode="horizontal"/>
                 ))}

@@ -1,6 +1,6 @@
 ---
-title: 'Proyecto 2'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+title: 'Portfolio personal'
+description: 'Mi sitio web profesional como carta de presentación técnica con el objetivo de mostrar mis competencias.'
 image: '/projects/project-2.png'
-skills: ['html', 'css', 'vue', 'js', 'git', 'github']
+skills: ['html', 'tailwindcss', 'astro', 'js', 'git', 'github']
 ---

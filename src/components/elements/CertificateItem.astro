@@ -5,16 +5,16 @@ const { certificate } = Astro.props;
 const { Content } = await render(certificate);
 const data = certificate.data;
 ---
-<li class="certificate-li text-center w-3xs inline gap-4" data-id={data.id}>
-    <div class="group shield-shape w-full overflow-hidden  min-h-60 border-8 border-double bg-white border-neutral-300 dark:border-neutral-800 shadow-neutral-300 dark:shadow-neutral-800 hover:border-primary flex flex-col justify-start h-[88%] cursor-pointer hover:scale-105 transition">
+<li class="certificate-li text-center inline" data-id={data.id}>
+    <div class="group shield-shape w-full overflow-hidden  border-8 border-double bg-white border-neutral-300 dark:border-neutral-800 shadow-neutral-300 dark:shadow-neutral-800 hover:border-primary flex flex-col justify-start h-[88%] cursor-pointer hover:scale-105 transition">
         <header class="h-16 z-0">
             <img src={data.img} class={"mx-auto relative " + data.class} alt={data.name}/>
         </header>
         <div class="sign-board z-10 h-26 px-8 bg-neutral-300 dark:bg-neutral-500 text-center flex items-center group-hover:bg-primary/30 dark:group-hover:bg-primary/70">
-            <h2 class="uppercase font-semibold text-sm line-clamp-4 dark:group-hover:text-neutral-800">{data.title}</h2>
+            <h2 class="uppercase font-semibold text-xs line-clamp-4 dark:group-hover:text-neutral-800">{data.title}</h2>
         </div>
         <footer class="py-2">
-            <p class="text-sm font-light tracking-widest leading-8 dark:text-neutral-800">{data.duration}</p>
+            <p class="text-xs font-light tracking-widest leading-8 dark:text-neutral-800">{data.duration}</p>
         </footer>
     </div>
 </li>

@@ -1,6 +1,6 @@
 ---
-title: 'Babylon Dust'
-description: 'Trabajo final del máster de Diseño y desarrollo de videojuegos. Un juego con mecánica de puzzles donde controlas a tres personajes con distintos poderes. Está inspirado en la mitología babilónica.'
-image: '/projects/project-4.png'
-skills: ['unity', 'csharp','studiomax', 'photoshop', 'git', 'github']
+title: 'MindBank'
+description: 'Aplicación web orientada a la gestión de contenidos educativos de forma estructurada y jerárquica. Cuenta con funcionalidades como gestión de usuarios, navegación tipo “drive” y diseño responsive.'
+image: '/projects/mindbank.png'
+skills: ['laravel', 'tailwindcss', 'vue', 'inertiajs', 'git', 'github']
 ---
