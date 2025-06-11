@@ -2,7 +2,7 @@
 id: 'deg-3'
 name: 'uma'
 img: '/formation/uma-logo.jpg'
-class: 'w-[44%] -top-2'
+class: 'h-[90%] top-0 lg:h-[160%] lg:-top-2'
 certifiedBy: 'Universidad de Málaga'
 subtitle: 'Master propio en'
 title: 'Diseño y Programación de Videojuegos'

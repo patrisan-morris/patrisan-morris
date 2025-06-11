@@ -2,7 +2,7 @@
 id: 'deg-2'
 name: 'ugr'
 img: '/formation/ugr-logo.svg'
-class: 'h-[180%] -top-10 lg:h-[240%] -top-6'
+class: 'h-[180%] -top-8 lg:h-[240%]'
 certifiedBy: 'Universidad de Granada'
 subtitle: 'Ingeniera Técnica en'
 title: 'Informática de Sistemas'

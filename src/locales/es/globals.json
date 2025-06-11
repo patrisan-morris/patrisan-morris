@@ -30,6 +30,8 @@
     "degreeType": "Título",
     "certificateType": "Certificado",
     "playAnimation": "Activar animación",
+    "seemore": "Ver más",
+    "seeless": "Ver menos",
 
     "contactTitle": "Contacto",
     "contactDescription": "Si tienes alguna pregunta, comentario o simplemente quieres hablar, estaré encantada de leerte.",

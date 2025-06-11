@@ -5,6 +5,7 @@ import CertificateItem from "@components/elements/CertificateItem.astro";
 import ChevronIcon from "@components/icons/Chevron.astro";
 import PlayIcon from "@components/icons/Play.astro";
 import StopIcon from "@components/icons/Stop.astro";
+import Play from '@components/icons/Play.astro';
 
 const { t } = Astro.props;
 const currentLocale = Astro.currentLocale;
@@ -65,12 +66,17 @@ certificates.sort((a, b) => {
 				<PlayIcon class="play-scroll size-8 hover:fill-primary dark:hover:fill-accent cursor-pointer" title={t.globals.playAnimation}/>
 				<StopIcon class="stop-scroll size-8 hover:fill-primary dark:hover:fill-accent cursor-pointer" title={t.globals.stopAnimation}/>
 			</div> -->
-			<div class="certificate-list  overflow-hidden">
+			<div class="certificate-list overflow-hidden h-content closed transition-all duration-300">
 				<ul class="grid grid-cols-5 w-fit gap-6 p-4">
 					{ certificates.map(certificate => (
 						<CertificateItem certificate={certificate} t={t}/>
 					))}
 				</ul>
+			</div>
+			<div id="see_button" class="text-primary text-md p-4 flex justify-end cursor-pointer font-bold tracking-wide hover:text-accent hover:underline hover:fill-accent" @click="openCertificateList">
+				<span class="seemore">{t.globals.seemore}</span>
+				<span class="seeless hidden">{t.globals.seeless}</span>
+				<ChevronIcon class="chevron size-6 fill-primary"></ChevronIcon>
 			</div>
 		</div>
 	</article>
@@ -78,6 +84,12 @@ certificates.sort((a, b) => {
 <style>
 
 	@reference "@styles/global.css";
+	.closed{
+		@apply h-60;
+	}
+	.opened{
+		@apply h-fit;
+	}
 	/*.certificate-list{
 		-webkit-mask:linear-gradient(90deg, transparent, white 2%, white 98%, transparent);
 		mask:linear-gradient(90deg, transparent, white 2%, white 98%, transparent);
@@ -125,6 +137,19 @@ certificates.sort((a, b) => {
 
 </style>
 <script>
+
+	const see_button = document.querySelector('#see_button');
+	see_button.addEventListener("click", (e) => {
+		const certificateList = document.querySelector('.certificate-list');
+		certificateList.classList.toggle('closed');
+		certificateList.classList.toggle('opened');
+		const chevron = document.querySelector('#see_button .chevron');
+		chevron.classList.toggle('rotate-180');
+		const seemore = document.querySelector('.seemore')
+		seemore.classList.toggle('hidden');
+		const seeless = document.querySelector('.seeless')
+		seeless.classList.toggle('hidden');
+	});
 
 	/*
 	const scrollers = document.querySelectorAll('.loop-slider');

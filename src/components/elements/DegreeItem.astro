@@ -5,16 +5,16 @@ const { degree } = Astro.props;
 const { Content } = await render(degree);
 const data = degree.data;
 ---
-<li data-id={data.id} class="degree-item relative text-center border-6 border-neutral-300 dark:border-neutral-800 hover:border-primary shadow-neutral-300 dark:shadow-neutral-800 shadow-lg bg-white rounded-sm border-double p-2 w-[90%] sm:w-[85%] md:max-w-lg lg:w-full flex flex-col justify-between min-h-42 md:min-h-58 cursor-pointer hover:scale-105 transition">
-    <header class="overflow-hidden h-18 md:h-24 lg:h-14">
+<li data-id={data.id} class="degree-item relative text-center border-6 border-neutral-300 dark:border-neutral-800 hover:border-primary shadow-neutral-300 dark:shadow-neutral-800 shadow-lg bg-white rounded-sm border-double p-2 w-[90%] sm:w-[85%] md:max-w-lg lg:w-full flex flex-col justify-between min-h-42 md:min-h-50 cursor-pointer hover:scale-105 transition">
+    <header class="overflow-hidden h-18 md:h-24 lg:h-12">
         <img src={data.img} class={"mx-auto relative " + data.class} alt={data.name}/>
     </header>
     <div class="">
-        <h4 class="text-neutral-500 tracking-wide text-md">{data.subtitle}</h4>
-        <h2 class="uppercase font-semibold text-md sm:text-lg dark:text-neutral-800">{data.title}</h2>
+        <h4 class="text-neutral-500 tracking-wide text-sm">{data.subtitle}</h4>
+        <h2 class="uppercase font-semibold text-sm sm:text-md dark:text-neutral-800">{data.title}</h2>
     </div>
     <footer class="">
-        <p class="text-sm text-neutral-600 font-light tracking-widest leading-8 relative bottom-2">{data.date}</p>
+        <p class="text-xs text-neutral-600 font-light tracking-widest leading-8 relative bottom-2">{data.date}</p>
     </footer>
 </li>
 <Modal id={data.id}>

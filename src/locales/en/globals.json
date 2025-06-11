@@ -30,6 +30,8 @@
     "degreeType": "Degree",
     "certificateType": "Certificate",
     "playAnimation": "Activate animation",
+    "seemore": "See more",
+    "seeless": "See less",
 
     "contactTitle": "Contact",
     "contactDescription": "If you have any questions, comments, or just want to chat, I'd be happy to hear from you!",
